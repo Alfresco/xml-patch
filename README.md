@@ -9,5 +9,5 @@ mvn assembly:assembly
 
 ## Run
 ```
-java -jar /Users/mau/w/xml-patch/target/xml-patch-1.0-SNAPSHOT-jar-with-dependencies.jar sample/example.xml sample/diff.xml output.xml
+java -jar target/xml-patch-1.0-SNAPSHOT-jar-with-dependencies.jar sample/example.xml sample/diff.xml output.xml
 ```
