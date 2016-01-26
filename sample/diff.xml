@@ -1,0 +1,6 @@
+<diff>
+    <replace sel="example/patchTool/@url">https://tools.ietf.org/html/rfc5261</replace>
+    <add pos="before" sel="example/greeting"><valediction>Goodmorning sorrow</valediction>
+    </add>
+    <replace sel="example/greeting/text()">Quit XML patch</replace>
+</diff>
