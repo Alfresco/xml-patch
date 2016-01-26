@@ -5,6 +5,7 @@
   <artifactId>xml-patch</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
+  
   <scm>
     <connection>scm:git:git@github.com:Alfresco/xml-patch.git</connection>
     <url>scm:git:git@github.com:Alfresco/xml-patch.git</url>
@@ -62,6 +63,15 @@
             </manifest>
           </archive>
         </configuration>
+        <executions>
+          <execution>
+              <id>dist-assembly</id>
+              <phase>package</phase>
+              <goals>
+                  <goal>single</goal>
+              </goals>
+          </execution>
+        </executions>
       </plugin>
     </plugins>
   </build>
